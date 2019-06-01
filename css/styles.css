@@ -23,6 +23,7 @@ background-color: #fff5e8;
 
 
 
+
  * {
    box-sizing: border-box;
  }
@@ -268,6 +269,7 @@ button:hover, button:focus, .button:hover, .button:focus {
     transform: translate(200px, 50px);
   }
 }
+
 
 
 .cloud-front {

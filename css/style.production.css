@@ -170,7 +170,6 @@ button:focus,
   -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
-  align-items: flex-end;
 }
 
 /* header stylings */

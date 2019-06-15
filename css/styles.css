@@ -112,7 +112,6 @@ button:hover, button:focus, .button:hover, .button:focus {
   color: white;
 }
 
-
                                 /* navigation stylings */
 .navigation-list {
   list-style-type: none;
@@ -165,12 +164,11 @@ button:hover, button:focus, .button:hover, .button:focus {
   flex-grow: 1;
   text-align: right;
   font-weight: var(--bold);
-  border-bottom: 1px solid var(--primary-color);
 }
 
 .page-header__item:first-child {
-  max-width: 200px;
-  max-height: 200px;
+  max-width: 100px;
+  max-height: 100px;
   text-align: left;
 }
 

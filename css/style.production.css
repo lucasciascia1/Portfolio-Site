@@ -6,30 +6,31 @@ background-color: #fff5e8;
  */
 
 :root {
-  /* colors */
+ /*colors*/
+  /*fonts*/
 
-  /* fonts */
 }
 
-* {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
 
-/* body stylings */
+
+
+ * {
+   -webkit-box-sizing: border-box;
+           box-sizing: border-box;
+ }
+
+                            /* body stylings */
 body {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 16px;
-
-  /* sets the font size to 16px */
+/* sets the font size to 16px */
   line-height: 1.6;
-
-  /* sets the line height to 16px */
+/* sets the line height to 16px */
   background-color: #fff5e8;
-}
+  }
 
-/* headings stylings */
+                            /* headings stylings */
 
 h1 {
   font-size: 30px;
@@ -46,85 +47,79 @@ h3 {
   font-weight: 700;
 }
 
-/* anchor stylings */
+                            /* anchor stylings */
 a {
   color: #005090;
 }
 
 a:visited {
-  /* visited link */
+  /*visited link*/
   color: #0c7698;
 }
 
-a:hover,
-a:focus {
-  /* no underlining when hovering over a link */
+a:hover, a:focus {
+  /*no underlining when hovering over a link*/
   text-decoration: none;
 }
 
 a:active {
-  /* selected link */
+  /*selected link*/
   color: #ca5462;
 }
 
-/* button stylings */
+                          /* button stylings */
 button {
-  /* Overwrites browser default and resets the border */
+  /*Overwrites browser default and resets the border*/
   border: none;
   display: inline-block;
-
-  /* Takes the font from the outer container */
+  /*Takes the font from the outer container*/
   font-family: inherit;
 
-  /* Styles the background color, font color, and text decoration (underline, etc.) of the button */
+  /*Styles the background color, font color, and text decoration (underline, etc.) of the button*/
   background-color: #0c7698;
   color: white;
   text-decoration: none;
 
-  /* Adds spacing to the button */
+  /*Adds spacing to the button*/
   padding: 10px;
   border-radius: 3px;
 
-  /* Gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
+  /*Gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format*/
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition: 0.2s opacity;
   -o-transition: 0.2s opacity;
   transition: 0.2s opacity;
 }
-
 .button {
-  /* Overwrites browser default and resets the border */
+  /*Overwrites browser default and resets the border*/
   border: none;
   display: inline-block;
-
-  /* Takes the font from the outer container */
+  /*Takes the font from the outer container*/
   font-family: inherit;
 
-  /* Styles the background color, font color, and text decoration (underline, etc.) of the button */
+  /*Styles the background color, font color, and text decoration (underline, etc.) of the button*/
   background-color: #0c7698;
   color: white;
   text-decoration: none;
 
-  /* Adds spacing to the button */
+  /*Adds spacing to the button*/
   padding: 10px;
   border-radius: 3px;
 
-  /* Gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
+  /*Gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format*/
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition: 0.2s opacity;
   -o-transition: 0.2s opacity;
   transition: 0.2s opacity;
 }
 
-button:hover,
-button:focus,
-.button:hover,
-.button:focus {
-  /* Lets the mouse appear as a hand when hovering over the button */
-  cursor: pointer;
 
+button:hover, button:focus, .button:hover, .button:focus {
+  /*Lets the mouse appear as a hand when hovering over the button*/
+  cursor: pointer;
   /* reduces the opacity of the button to 80% */
   opacity: 0.8;
+
 }
 
 .button_secondary {
@@ -132,7 +127,7 @@ button:focus,
   color: white;
 }
 
-/* navigation stylings */
+                                /* navigation stylings */
 .navigation-list {
   list-style-type: none;
 }
@@ -146,7 +141,8 @@ button:focus,
   text-decoration: none;
 }
 
-/* profile stylings */
+
+                                /* profile stylings */
 .profile {
   max-width: 700px;
   margin: 0 auto;
@@ -159,7 +155,7 @@ button:focus,
   border-radius: 50%;
 }
 
-/* footer stylings */
+                                /* footer stylings */
 .page-footer {
   clear: both;
   display: -webkit-box;
@@ -167,12 +163,12 @@ button:focus,
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
 }
 
-/* header stylings */
+                                /* header stylings */
 
 .page-header {
   display: -webkit-box;
@@ -184,38 +180,41 @@ button:focus,
 
 .page-header__item {
   -webkit-box-flex: 0;
-  -ms-flex: 0 1 200px;
-  flex: 0 1 200px;
+      -ms-flex: 0 1 200px;
+          flex: 0 1 200px;
 }
 
 .page-header__item:last-child {
   -webkit-box-flex: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   text-align: right;
   font-weight: 700;
-  border-bottom: 1px solid #005090;
 }
 
 .page-header__item:first-child {
-  max-width: 200px;
-  max-height: 200px;
+  max-width: 100px;
+  max-height: 100px;
   text-align: left;
 }
 
-/* grid stylings */
+
+
+                                /* grid stylings */
 .grid {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
+
 }
 
 .grid__item {
   background-color: lightgray;
   padding: 20px;
 }
+
 
 .grid__item:last-child {
   -ms-grid-column: 3;
@@ -225,14 +224,15 @@ button:focus,
   grid-row: 1 / 3;
 }
 
+
 @media all and (max-width: 500px) {
   .grid {
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
   }
 }
 
-@media all and (min-width: 500px) and (max-width: 750px) {
+@media all and (min-width: 500px) and (max-width: 750px){
   .grid {
     -ms-grid-columns: 1fr 20px 1fr;
     grid-template-columns: 1fr 1fr;
@@ -240,21 +240,21 @@ button:focus,
 }
 
 @media all and (max-width: 750px) {
-  .grid {
-    grid-gap: 10px;
-  }
 
+  .grid {
+  grid-gap: 10px;
+  }
   .grid__item:last-child {
     grid-column: auto / auto;
     grid-row: auto / auto;
   }
-
   h1 {
     font-size: 22px;
   }
+
 }
 
-/* about stylings */
+                                /* about stylings */
 .about-me {
   text-align: center;
 }
@@ -271,8 +271,7 @@ button:focus,
   margin: 20px 0;
   text-align: center;
 }
-
-/* animation stylings */
+                                /* animation stylings */
 
 @-webkit-keyframes color-change {
   0% {
@@ -286,6 +285,7 @@ button:focus,
   to {
     fill: #f76414;
   }
+
 }
 
 @keyframes color-change {
@@ -300,67 +300,68 @@ button:focus,
   to {
     fill: #f76414;
   }
+
 }
 
 .sun {
   -webkit-animation: 4s color-change infinite alternate linear;
-  animation: 4s color-change infinite alternate linear;
+          animation: 4s color-change infinite alternate linear;
 }
 
 @-webkit-keyframes cloud-move {
   from {
     -webkit-transform: translate(0, 50px);
-    transform: translate(0, 50px);
+            transform: translate(0, 50px);
   }
-
   to {
     -webkit-transform: translate(200px, 50px);
-    transform: translate(200px, 50px);
+            transform: translate(200px, 50px);
   }
 }
 
 @keyframes cloud-move {
   from {
     -webkit-transform: translate(0, 50px);
-    transform: translate(0, 50px);
+            transform: translate(0, 50px);
   }
-
   to {
     -webkit-transform: translate(200px, 50px);
-    transform: translate(200px, 50px);
+            transform: translate(200px, 50px);
   }
 }
+
+
 
 .cloud-front {
   -webkit-animation: 30s cloud-move infinite alternate linear;
-  animation: 30s cloud-move infinite alternate linear;
+          animation: 30s cloud-move infinite alternate linear;
 }
+
 
 @-webkit-keyframes cloud-move-reverse {
   from {
     -webkit-transform: translate(446px, 48px);
-    transform: translate(446px, 48px);
+            transform: translate(446px, 48px);
   }
-
   to {
     -webkit-transform: translate(100px, 48px);
-    transform: translate(100px, 48px);
+            transform: translate(100px, 48px);
   }
 }
+
 
 @keyframes cloud-move-reverse {
   from {
     -webkit-transform: translate(446px, 48px);
-    transform: translate(446px, 48px);
+            transform: translate(446px, 48px);
   }
-
   to {
     -webkit-transform: translate(100px, 48px);
-    transform: translate(100px, 48px);
+            transform: translate(100px, 48px);
   }
 }
 
 .cloud-back {
   -webkit-animation: 34s cloud-move-reverse infinite alternate linear;
-  animation: 34s cloud-move-reverse infinite alternate linear;
+          animation: 34s cloud-move-reverse infinite alternate linear;
 }

@@ -296,5 +296,5 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 
 @media screen and (max-width: 425px) {
-  animation { width: 319px }
+  .animation { width: 319px; }
 }

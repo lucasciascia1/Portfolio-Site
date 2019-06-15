@@ -155,6 +155,9 @@ button:hover, button:focus, .button:hover, .button:focus {
   border-radius: 50%;
 }
 
+
+
+
                                 /* footer stylings */
 .page-footer {
   clear: both;
@@ -364,4 +367,11 @@ button:hover, button:focus, .button:hover, .button:focus {
 .cloud-back {
   -webkit-animation: 34s cloud-move-reverse infinite alternate linear;
           animation: 34s cloud-move-reverse infinite alternate linear;
+}
+
+.ContactInformation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
 }

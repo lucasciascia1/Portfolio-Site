@@ -369,9 +369,6 @@ button:hover, button:focus, .button:hover, .button:focus {
           animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
-.ContactInformation {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.contact-information {
   text-align: center;
 }

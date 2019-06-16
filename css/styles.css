@@ -294,3 +294,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 .contact-information {
   text-align: center;
 }
+
+@media screen and (max-width: 425px) {
+  .animation { width: 319px; }
+}

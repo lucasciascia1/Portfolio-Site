@@ -294,12 +294,3 @@ button:hover, button:focus, .button:hover, .button:focus {
 .contact-information {
   text-align: center;
 }
-
-@media only screen and (min-device-width: 400px) {
-  .profile__text {
-    display: inline-block;
-    zoom: 1;
-    /* display: inline; */
-    padding: 1em;
-}
-}

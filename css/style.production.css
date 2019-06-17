@@ -376,3 +376,18 @@ button:hover, button:focus, .button:hover, .button:focus {
 @media screen and (max-width: 425px) {
   .animation { width: 319px; }
 }
+
+
+.email {
+  padding: 1em;
+}
+
+
+.telephone {
+  padding: 1em;
+}
+
+
+.input-message {
+  padding: 1em;
+}

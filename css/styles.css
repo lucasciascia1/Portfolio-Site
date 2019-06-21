@@ -292,23 +292,45 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 
 .contact-information {
+  clear: both;
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 @media screen and (max-width: 425px) {
   .animation { width: 319px; }
 }
 
+
 .email {
   padding: 1em;
+  margin: 0 auto;
 }
 
 
 .telephone {
   padding: 1em;
+  margin: 0 auto;
 }
 
 
 .input-message {
   padding: 1em;
+  margin: 0 auto;
+}
+
+.contact-input-section {
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.Send-message {
+  padding: 1em;
+  margin: 0 auto;
+  align-self: center;
 }
